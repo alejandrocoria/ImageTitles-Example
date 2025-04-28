@@ -1,0 +1,11 @@
+{
+	"pack": {
+		"description": "Example for ImageTitles",
+		"pack_format": 46,
+		"supported_formats": {
+			"min_inclusive": 1,
+			"max_inclusive": 99
+		},
+		"description": "Example resource pack for the ImageTitles mod"
+	}
+}
