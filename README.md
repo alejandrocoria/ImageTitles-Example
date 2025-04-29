@@ -31,3 +31,7 @@ Example of a metadata file:
 * **height**: the actual height of the image.
 
 The width and height may be removed in the future because they are redundant, but for now they are necessary for technical reasons.
+
+---
+# Credits
+Example image created with [Font Generator](https://www.textstudio.com/).
