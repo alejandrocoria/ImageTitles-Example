@@ -11,16 +11,18 @@ Files and subfolders should go inside `assets/namespace/textures/title/` where *
 # File Formats
 Images must be in PNG format with the `.png` extension. They support transparency.
 
-Next to each image there must be a metadata file in JSON format with the same name and `.mcdata` suffix. For example, if you have an image named `my_image.png`, the metadata file would be called `my_image.png.mcdata`.
+Next to each image there must be a metadata file in JSON format with the same name and `.mcmeta` suffix. For example, if you have an image named `my_image.png`, the metadata file would be called `my_image.png.mcmeta`.
 
 Example of a metadata file:
 ```JSON
 {
-	"title": "my image",
-	"x": 0.3,
-	"y": 0.75,
-	"width": 600,
-	"height": 200
+    "imagetitles": {
+	    "title": "my image",
+	    "x": 0.3,
+	    "y": 0.75,
+	    "width": 600,
+	    "height": 200
+	}
 }
 ```
 
