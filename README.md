@@ -16,12 +16,12 @@ Next to each image there must be a metadata file in JSON format with the same na
 Example of a metadata file:
 ```JSON
 {
-    "imagetitles": {
-	    "title": "my image",
-	    "x": 0.3,
-	    "y": 0.75,
-	    "width": 600,
-	    "height": 200
+	"imagetitles": {
+		"title": "my image",
+		"x": 0.3,
+		"y": 0.75,
+		"width": 600,
+		"height": 200
 	}
 }
 ```
